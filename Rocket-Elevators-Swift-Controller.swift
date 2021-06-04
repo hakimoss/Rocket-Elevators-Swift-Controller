@@ -344,5 +344,5 @@ public class FloorRequestButtons {
 
 
 var battery1 = Battery(ID: 1, amountOfColumns: 4, amountOfFloors: 60, amountOfElevatorPerColumn: 5, amountOfBasements: 6) 
-battery1.assignElevator(requestedFloor: 2, direction: "up")
-battery1.columnsList[1].requestElevator(requestedFloor: 13, direction: "down");
+battery1.assignElevator(requestedFloor: 8, direction: "up")
+battery1.columnsList[1].requestElevator(requestedFloor: 0, direction: "down");
